@@ -18,7 +18,7 @@ function App() {
       <Header></Header>
       <div className='md:flex max-w-7xl mx-auto'>
         <Blogs handleAddToBookmarks={handleAddToBookmarks}></Blogs>
-        <Bookmarks></Bookmarks>
+        <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
     </>
   )
